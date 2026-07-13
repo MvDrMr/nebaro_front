@@ -23,7 +23,8 @@ const ModalProductos = ({ isOpen, onClose }) => {
         "2 bolsas de 200g",
         "Café de especialidad 100% arábica de Huehuetenango.",
         "Precio Q.60.00"
-      ]
+      ],
+      oferta: "Por tiempo límitado. ¡Aprovecha esta oferta y disfruta del mejor café!"
     }
   ];
 
@@ -125,6 +126,10 @@ const ModalProductos = ({ isOpen, onClose }) => {
                     </p>
                   ))
                 }
+              </div>
+
+              <div className="text-[#bcb851] text-sm mt-2">
+                {productos[currentIndex].oferta}
               </div>
             </div>
 

@@ -81,6 +81,10 @@ const Seccion1 = ({
           Precio Q60.00
         </p>
 
+        <p className="text-[#988476] text-sm mt-2">
+          Por tiempo límitado. ¡Aprovecha esta oferta y disfruta del mejor café!
+        </p>
+
         <button
           onClick={() => setIsProductoOpen(true)}
           className="mt-2 border border-[#c9956a] text-[#c9956a] px-8 py-3 rounded-full
